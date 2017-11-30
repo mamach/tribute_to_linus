@@ -1,3 +1,4 @@
-/* line 2, ../components/sass/style.scss */
+@import url("https://fonts.googleapis.com/css?family=Spectral+SC");
+/* line 7, ../components/sass/_base.scss */
 body {
-  background: #997740; }
+  font-family: Spectral SC, serif; }

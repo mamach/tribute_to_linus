@@ -1,4 +1,8 @@
-$bgcolor: #997740;
-body{
-  background: $bgcolor;
-}
+@import "compass";
+@import "susy";
+
+@import "variables";
+@import "mixins";
+@import "base";
+@import "layout";
+@import "modules";
