@@ -16,4 +16,9 @@ $cyan           : #259286;
 $green          : #738A05;
 
 
-$primary-font : Spectral SC, serif
+// for body font will be of type Serif
+$body_font : Spectral SC, serif;
+// for headings font will be of type Sans Serif
+$heading_font : Roboto, sans-serif;
+// default border radius
+$default-border-radius: 10px;

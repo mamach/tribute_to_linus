@@ -1,9 +1,42 @@
+// importing font from fonts.google.com which is of type serif
 @import url('https://fonts.googleapis.com/css?family=Spectral+SC');
 
-// body{
-//   background: lighten($orange,40);
-// }
+// import font from fonts.google.com which is of type sans Serif
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+// import font-awesome icons CSS CDN
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body{
-  font-family: $primary-font;  
+  font-family: $body_font;
+  font-size: 1.2 rem;
+  line-height:160%;
+  background: $paleyellow;
+  color: $darkblue;
+}
+ #{headings()}{
+   font-family: $heading_font;
+   font-weight:normal;
+   color: $darkgray;
+ }
+
+h1{
+  font-size: 2.2rem;
+  color:lighten($darkblue, 25);
+  margin-bottom:0.4rem;
+  border-bottom:1px solid $lightgray;
+  padding-top: 10px;
+}
+
+
+a{
+  text-decoration: underline;
+  color:$mediumgray;
+  &:hover{
+    color:$orange;
+  }
+}
+
+p{
+  margin-bottom: 10px;
 }

@@ -1,0 +1,39 @@
+// Header --------------------------------------------------
+header{
+  img{
+    width:90%;
+    margin:2%;
+    max-width: 200px;
+    margin-bottom: 0;
+  }
+}
+
+// Navigation ---------------------------------------------
+.navigation{
+  background: lighten($darkblue, 15);
+  ul.nav{
+    li{
+      list-style: none;
+      i {
+        color: lighten($yellow,20);
+        padding-right: 0.5 em;
+      }
+      a{
+        text-decoration: none;
+        color: $paleryellow;
+        display: block;
+        padding: 5px 10px;
+      }
+    }
+  }
+}
+
+// Footer ---------------------------------------------
+footer{
+  @include clearfix;
+  color:$paleryellow;
+  background: lighten($darkerblue,3);
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
