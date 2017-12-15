@@ -1,3 +1,19 @@
+// Susy setup --------------------------------------------------
+$total-columns : 12;
+$column-width : 4em;
+$gutter-width : 1em;
+$grid-padding :$gutter-width;
+
+@include border-box-sizing;
+
+$small : 30em;
+$medium : 47em;
+$large : 75em;
+
+// Layout --------------------------------------------------
+.layout{
+  padding-right: 3%;
+}
 // Header --------------------------------------------------
 header{
   img{
