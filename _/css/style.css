@@ -62,7 +62,7 @@ body {
   font-family: Spectral SC, serif;
   font-size: 1.2 rem;
   line-height: 160%;
-  background: #EAE3CB;
+  background: white;
   color: #0A2933; }
 
 /* line 17, ../components/sass/_base.scss */
@@ -70,109 +70,3 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Roboto, sans-serif;
   font-weight: normal;
   color: #475B62; }
-
-/* line 23, ../components/sass/_base.scss */
-h1 {
-  font-size: 2.2rem;
-  color: #1f7f9e;
-  margin-bottom: 0.4rem;
-  border-bottom: 1px solid #819090;
-  padding-top: 10px; }
-
-/* line 32, ../components/sass/_base.scss */
-a {
-  text-decoration: underline;
-  color: #536870; }
-  /* line 35, ../components/sass/_base.scss */
-  a:hover {
-    color: #BD3613; }
-
-/* line 40, ../components/sass/_base.scss */
-p {
-  margin-bottom: 10px; }
-
-/* line 21, ../../../../../../.rvm/gems/ruby-2.4.1/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
-
-/* line 14, ../components/sass/_layout.scss */
-.layout {
-  padding-right: 3%; }
-
-/* line 19, ../components/sass/_layout.scss */
-header img {
-  width: 90%;
-  margin: 2%;
-  max-width: 200px;
-  margin-bottom: 0; }
-
-/* line 28, ../components/sass/_layout.scss */
-.navigation {
-  background: #175c73; }
-  /* line 31, ../components/sass/_layout.scss */
-  .navigation ul.nav li {
-    list-style: none; }
-    /* line 33, ../components/sass/_layout.scss */
-    .navigation ul.nav li i {
-      color: #f7b71a;
-      padding-right: 0.5 em; }
-    /* line 37, ../components/sass/_layout.scss */
-    .navigation ul.nav li a {
-      text-decoration: none;
-      color: #FCF4DC;
-      display: block;
-      padding: 5px 10px; }
-
-/* line 48, ../components/sass/_layout.scss */
-footer {
-  overflow: hidden;
-  *zoom: 1;
-  color: #FCF4DC;
-  background: #052b37;
-  margin-top: 20px;
-  padding-top: 20px;
-  padding-bottom: 100px; }
-
-/* line 3, ../components/sass/_modules.scss */
-.speakers .artist {
-  overflow: hidden;
-  *zoom: 1; }
-  /* line 5, ../components/sass/_modules.scss */
-  .speakers .artist h3 {
-    padding-top: 10px;
-    padding-bottom: 5px;
-    border-bottom: 1px dotted #819090;
-    margin-bottom: 5px; }
-  /* line 11, ../components/sass/_modules.scss */
-  .speakers .artist img {
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    width: 120px;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 10px; }
-
-/* line 25, ../components/sass/_modules.scss */
-.socialicons {
-  overflow: hidden;
-  *zoom: 1; }
-  /* line 27, ../components/sass/_modules.scss */
-  .socialicons .title {
-    float: left; }
-  /* line 30, ../components/sass/_modules.scss */
-  .socialicons ul {
-    float: left; }
-    /* line 32, ../components/sass/_modules.scss */
-    .socialicons ul li {
-      display: inline-block;
-      margin-left: 5px; }
-      /* line 35, ../components/sass/_modules.scss */
-      .socialicons ul li img {
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-        width: 30%;
-        max-width: 100px; }
