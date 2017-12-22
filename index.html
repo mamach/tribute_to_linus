@@ -4,9 +4,51 @@
     <meta charset="utf-8">
     <title>Responsive Design with Sass and Compass</title>
     <link rel="stylesheet" href="_/css/style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
-    
+    <div class="container-fluid">
+      <div class="container">
+        <div class="welcome-img text-center">
+          <h1>A tribute to Linus Torvalds</h1>
+          <h4> Man who invented Linux </h4>
+          <img class="img-responsive" width="200px" src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg" alt="linus torvalds laughing image">
+          <p> Linus Torvald addressing a speech in Conference</p>
+        </div>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="timeline col-md-8">
+            <h3>Here is a brief timeline of Linus Torvalds...</h3>
+            <ul >
+              <li>Born in Helsinki, Finland in <span>1969</span>.</li>
+              <li>Attended University of Helsinki between <span>1988</span> and <span>1996</span>.</li>
+              <li>Graduated in Master in Computer Scince from NODES research group.</li>
+              <li>M.Sc Thesis : Linux- A portable Operating System</li>
+              <li>Joined Finnish army in <span>1989</span>.</li>
+              <li><span>1990</span> - Exposed to the UNIX for the first time.</li>
+              <li><span>1991</span>- First Prototype of Linux released</li>
+              <li><span>1994</span> - Version1.0 of Linux released</li>
+              <li><span>1997-2003</span> -- worked in company called Transmeta</li>
+            </ul>
+            <h4>
+              That's what makes Linux so good: you put in something, and that effort multiplies. It's a positive feedback cycle.
+            </h4>
+            <p>-- Linus Torvalds</p>
+            <div class="read-more">
+              You can read more about him at <a href="https://en.wikipedia.org/wiki/Linus_Torvalds">Wikipedia</a>
+            </div>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+
+
+      </div>
+      <hr>
+      <div class="text-center">
+        Written and coded by <a href="https://github.com/mamach">Mahesh</a>
+      </div>
+    </div>
     <script src="_/js/script.js" charset="utf-8"></script>
     <!-- script for live reloading -->
     <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>

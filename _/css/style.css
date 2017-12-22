@@ -70,3 +70,36 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Roboto, sans-serif;
   font-weight: normal;
   color: #475B62; }
+
+/* line 23, ../components/sass/_base.scss */
+.container {
+  background-color: #d2d8d8; }
+
+/* line 27, ../components/sass/_base.scss */
+.welcome-img {
+  background-color: #FCF4DC;
+  padding: 10px;
+  margin: 20px; }
+  /* line 31, ../components/sass/_base.scss */
+  .welcome-img img {
+    display: inline-block; }
+  /* line 34, ../components/sass/_base.scss */
+  .welcome-img h4 {
+    font-style: italic; }
+
+/* line 41, ../components/sass/_base.scss */
+.timeline span {
+  font-weight: bold; }
+/* line 44, ../components/sass/_base.scss */
+.timeline ul {
+  padding: 10px; }
+  /* line 47, ../components/sass/_base.scss */
+  .timeline ul li {
+    list-style: disc; }
+/* line 51, ../components/sass/_base.scss */
+.timeline h4 {
+  font-weight: bold; }
+
+/* line 55, ../components/sass/_base.scss */
+.read-more {
+  font-size: 20px; }

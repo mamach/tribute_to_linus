@@ -19,3 +19,39 @@ body{
    font-weight:normal;
    color: $darkgray;
  }
+
+.container{
+  background-color: lighten($lightgray, 30);
+}
+
+.welcome-img{
+  background-color: $paleryellow;
+  padding:10px;
+  margin:20px;
+  img{
+    display:inline-block;
+  }
+  h4{
+    font-style: italic;
+  }
+
+}
+
+.timeline{
+  span{
+    font-weight: bold;
+  }
+  ul{
+    // padding: 10px 10px 10px 300px;
+    padding: 10px;
+    li{
+      list-style: disc;
+    }
+  }
+  h4{
+    font-weight: bold;
+  }
+}
+.read-more{
+  font-size: 20px;
+}
